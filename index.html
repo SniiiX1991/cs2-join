@@ -2,10 +2,18 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=steam://connect/feuerblume.gamergod.net:25331;password=Feuerblume321">
     <title>CS2-Server Beitreten</title>
+    <script>
+        function joinServer() {
+            window.location.href = "steam://connect/feuerblume.gamergod.net:25331;password=Feuerblume321";
+        }
+
+        // Automatische Weiterleitung nach 1 Sekunde
+        setTimeout(joinServer, 1000);
+    </script>
 </head>
 <body>
+    <h2>🔗 Verbindung zum CS2-Server wird hergestellt...</h2>
     <p>Falls die automatische Weiterleitung nicht funktioniert, <a href="steam://connect/feuerblume.gamergod.net:25331;password=Feuerblume321">klicke hier</a>.</p>
 </body>
 </html>
